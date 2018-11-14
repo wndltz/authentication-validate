@@ -1,10 +1,18 @@
 {
   "name": "@wndltz/authentication-validate",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "author": "Actano GmbH",
   "license": "ISC",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "babel -d lib src",
+    "prepublish": "npm run build"
+  },
   "dependencies": {
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
