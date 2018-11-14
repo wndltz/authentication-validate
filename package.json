@@ -1,0 +1,17 @@
+{
+  "name": "authentication-validate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Actano GmbH",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.1.5",
+    "jsonwebtoken": "^8.3.0"
+  }
+}
