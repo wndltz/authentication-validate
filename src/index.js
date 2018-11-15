@@ -1,6 +1,7 @@
 import jwt from 'jsonwebtoken'
+import config from '@rplan/config'
 
-const { JWT_PUBLIC_KEY } = process.env
+const JWT_PUBLIC_KEY = config.get('authentication:public-key')
 
 export function validateToken(token) {
   try {
